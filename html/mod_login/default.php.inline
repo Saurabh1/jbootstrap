@@ -1,0 +1,67 @@
+<?php
+/* ------------------------------------------------------------------------
+  # JBootstrap - Twitter's Bootstrap for Joomla (with RocketTheme's Gantry administration)
+  # ------------------------------------------------------------------------
+  # author    Prieco S.A.
+  # copyright Copyright (C) 2012 Prieco.com. All Rights Reserved.
+  # @license - http://http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
+  # Websites: http://www.prieco.com
+  # Technical Support:  Forum - http://www.prieco.com/en/forum/index.html
+  ------------------------------------------------------------------------- */
+
+// no direct access
+defined('_JEXEC') or die;
+JHtml::_('behavior.keepalive');
+?>
+<?php if ($type == 'logout') : ?>
+    <form action="<?php echo JRoute::_('index.php', true, $params->get('usesecure')); ?>" method="post" name="form-login">
+        <?php if ($params->get('greeting')) : ?>
+            <div class="login-greeting">
+                <?php
+                if ($params->get('name') == 0) : {
+                        echo JText::sprintf('MOD_LOGIN_HINAME', $user->get('name'));
+                    } else : {
+                        echo JText::sprintf('MOD_LOGIN_HINAME', $user->get('username'));
+                    } endif;
+                ?>
+            </div>
+        <?php endif; ?>
+        <div class="readon">
+            <input type="submit" name="Submit" class="button btn" value="<?php echo JText::_('JLOGOUT'); ?>" />
+        </div>
+
+        <input type="hidden" name="option" value="com_users" />
+        <input type="hidden" name="task" value="user.logout" />
+        <input type="hidden" name="return" value="<?php echo $return; ?>" />
+        <?php echo JHtml::_('form.token'); ?>
+    </form>
+<?php else : ?>
+    <form action="<?php echo JRoute::_('index.php', true, $params->get('usesecure')); ?>" method="post" name="form-login" class="well form-inline pull-right">
+        <?php if ($params->get('pretext')): ?>
+            <div class="pretext">
+                <p><?php echo $params->get('pretext'); ?></p>
+            </div>
+        <?php endif; ?>
+        <fieldset class="userdata">
+            <label><?php echo JText::_('MOD_LOGIN_VALUE_USERNAME') ?></label>
+            <input type="text" name="username" class="inputbox"  size="18" />
+            <label><?php echo JText::_('JGLOBAL_PASSWORD') ?></label>
+            <input type="password" name="password" class="inputbox" size="18"  />
+            <?php if (JPluginHelper::isEnabled('system', 'remember')) : ?>
+                <label class="checkbox inline">
+                    <input type="checkbox" name="remember" class="inputbox" value="yes"/><?php echo JText::_('MOD_LOGIN_REMEMBER_ME') ?>
+                </label>
+            <?php endif; ?>
+            <input type="submit" name="Submit" class="btn inline" value="<?php echo JText::_('JLOGIN') ?>" />
+            <input type="hidden" name="option" value="com_users" />
+            <input type="hidden" name="task" value="user.login" />
+            <input type="hidden" name="return" value="<?php echo $return; ?>" />
+            <?php echo JHtml::_('form.token'); ?>
+        </fieldset>
+        <?php if ($params->get('posttext')): ?>
+            <div class="posttext">
+                <p><?php echo $params->get('posttext'); ?></p>
+            </div>
+        <?php endif; ?>
+    </form>
+<?php endif; ?>

@@ -1,0 +1,60 @@
+/* ------------------------------------------------------------------------
+  # JBootstrap - Twitter's Bootstrap for Joomla (with RocketTheme's Gantry administration)
+  # ------------------------------------------------------------------------
+  # author    Prieco S.A.
+  # copyright Copyright (C) 2012 Prieco.com. All Rights Reserved.
+  # @license - http://http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
+  # Websites: http://www.prieco.com
+  # Technical Support:  Forum - http://www.prieco.com/en/forum/index.html
+  ------------------------------------------------------------------------- */
+
+body {
+	background: #000;
+	font-family: Arial,sans-serif;
+	line-height: 1.3em;
+	font-size: 96%;
+	color: #333;
+}
+
+h1 {
+	font-family:Helvetica ,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+h2 {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 14px;;
+	font-weight: normal;
+	color: #333;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 19px;
+  color: #135cae;
+}
+
+h4 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+a:link, a:visited {
+	color: #1B57B1; text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover {
+	color: #00c;	text-decoration: underline;
+	font-weight: normal;
+}
+
+div.caption       { padding: 0 10px 0 10px; }
+div.caption img   { border: 1px solid #CCC; }
+div.caption p     { font-size: .90em; color: #666; text-align: center; }
+
+div.teaser { background:#ccc; }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+
+	<tip label="Getting More Help">
+		<![CDATA[
+		Each tab contains a summary and also a "tip-box" that displays relevant information as you mouse-over the elements in the template parameters.  If you would like to find out more about these settings and the Gantry Framework in general please checkout these links:
+		<ul>
+
+		<li><a href="http://www.prieco.com/en/forum/index.html">J!Bootstrap for Joomla Forum</a></li>                
+		<li><a href="http://twitter.github.com/bootstrap/"><b>Bootstrap</b>, from Twitter is a simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.</a></li>
+		<li><a href="https://groups.google.com/forum/#!forum/gantry-framework-developers">Gantry Framework Developers Mailing list</a></li>
+		<li><a href="http://www.gantry-framework.org">Gantry Framework Homepage</a></li>
+                
+		</ul>
+		]]>
+	</tip>
+
+
+</gantrytips>
