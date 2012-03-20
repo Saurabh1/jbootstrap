@@ -57,9 +57,33 @@ build a solid theme with.
 
 Get more help and find out more at http://www.gantry-framework.org/
 
+Twitter account
+---------------
+Keep up to date on announcements and more by following Prieco on Twitter, <a href="http://twitter.com/prieco">@prieco</a>.
 
-author:             Prieco S.A.
-copyright:          Copyright (C) 2012 Prieco.com. All Rights Reserved.
-license:            http://http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
-Websites:           http://www.prieco.com
-Technical Support:  Forum - http://www.prieco.com/en/forum/index.html
+Authors
+-------
+
+**Prieco S.A.**
+
++ http://twitter.com/prieco
++ http://ww.prieco.com
++ Technical Support:  Forum http://www.prieco.com/en/forum/index.html
+
+Copyright and license
+---------------------
+
+Copyright (C) 2012 Prieco.com. All Rights Reserved.
+
+Licensed under the GNU GENERAL PUBLIC LICENSE Version 3 (the "License");
+you may not use this work except in compliance with the License.
+You may obtain a copy of the License in the LICENSE file, or at:
+
+   http://http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
