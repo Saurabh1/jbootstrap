@@ -8,7 +8,7 @@
     <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
     <authorEmail>support@prieco.com</authorEmail>
     <authorUrl>http://www.prieco.com</authorUrl>
-    <version>0.1</version>
+    <version>0.2</version>
     <description>${project.description}</description>
     <files>
         <filename>index.php</filename>
